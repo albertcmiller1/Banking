@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
 #define ANSI_COLOR_RED "\x1b[31m"
 
 void delay();
@@ -11,7 +9,7 @@ int menu(void){
     int choice;
 
     printf(ANSI_COLOR_RED "\n\n\t\tWELCOME TO THE BANK BITCH\n");
-    printf("\n\t\t1. Create new account\n\t\t2. View details of an existing account\n\t\t3. blah blah blah\n\t\tEnter your choice:");
+    printf("\n\t\t1. Create new account\n\t\t2. View details of an existing account\n\t\t3. blah blah blah\n\n\t\tEnter your choice:");
 
     scanf("%d", &choice);
     delay(1);
